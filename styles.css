@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW10xUpWWEswedaO8oLVQvBh6ss_5RFUBo9QKK7P0kZC0T_ygmEKqtg8MAwP1abzAJIio&usqp=CAU);
+    background-color:rgb(112, 94, 60);
+    background-size:100%;
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat:no-repeat;
+    
+  }
+  
+  #title {
+    font-style: italic;
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    color:red;
+    border-style:double;
+    border-radius: 50%;
+  }
+  #description {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    font-size: larger;
+    color:crimson;
+    
+  }
+  .container1{
+    width: 90%;
+    margin: auto;
+  }
+  
+  form{
+  background-color:unset;
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:54%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top:10px;
+  margin-bottom: 60px;
+  }
+  #name{
+  width: 98.5%;
+  height: 2.8em;
+  font-weight: 600;
+  }
+  #email{
+  width: 98.5%;
+  height: 2.8em;
+  
+  }
+  #number{
+  width: 98.5%;
+  height: 2.8em;
+  
+  }
+  #dropdown{
+  width: 98.5%;
+  height: 2.8em;
+  }
+  #name-label{
+    font-weight: bold;
+    font-size:x-large;
+    color:black;
+  }
+  #email-label{
+    font-weight: bold;
+    font-size:x-large;
+    color:black;
+  }
+  #number-label{
+    font-weight: bold;
+    font-size:x-large;
+    color:black
+  }
+  #drop-label{
+    font-weight: bold;
+    font-size:x-large;
+    color:black
+  }
+  #recommend{
+    font-weight: bold;
+    font-size:x-large;
+    color:black;
+  }
+  #radio1{
+    font-weight: bold;
+    font-size:large;
+    color:black;
+  }
+  #fcc-feature{
+    font-weight: bold;
+    font-size:x-large;
+    color:black;
+  }
+  #favourite{
+    width: 98.5%;
+    height: 2.8em;
+    }
+  #check1{
+    font-weight: bold;
+    font-size:large;
+    color:black;
+  }
+  #improve{
+    font-weight: bold;
+    font-size:x-large;
+    color:black;
+  }
+  #comment1{
+    font-weight: bold;
+    font-size:x-large;
+    color:black;
+  }
+  #comment2{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    
+  }
+  #submit{
+    width: 98%;
+    height: 3em;
+    color:black;
+    background-color:green;
+    border:none;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

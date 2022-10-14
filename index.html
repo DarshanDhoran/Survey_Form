@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Surve Form</title>
+  </head>
+  <body>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <br /><br />
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <br /><br />
+    <div>
+      <form id="survey-form">
+        <div class="container1">
+          <div>
+            <label id="name-label">
+              Name:
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                name="name"
+                maxlength="25"
+                required
+            /></label>
+            <br /><br />
+
+            <label id="email-label"
+              >Email:
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                name="email"
+                maxlength="25"
+                required
+            /></label>
+
+            <br /><br />
+
+            <label id="number-label"
+              >Age(optional):
+              <input
+                type="number"
+                id="number"
+                placeholder="Enter your age"
+                name="number"
+                min="18"
+                max="60"
+              />
+            </label>
+          </div>
+          <br /><br />
+          <div>
+            <p id="drop-label">
+              Which option best describes your current role?
+            </p>
+            <select name="role" id="dropdown">
+              <option>select your role</option>
+              <option value="Student">Student</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Full time job">Full time job</option>
+              <option value="Full time learner">Full time learner</option>
+            </select>
+          </div>
+          <br /><br />
+
+          <div>
+            <p id="fcc-feature">
+              What is your favourite feature of free code camp?
+            </p>
+            <select name="Select feature" id="favourite">
+              <option>select your favourite feature</option>
+              <option value="Forum">Forum</option>
+              <option value="Challenge">Challenge</option>
+              <option value="Community">Community</option>
+              <option value="Open Source">Open Source</option>
+            </select>
+          </div>
+          <br /><br />
+
+          <fieldset id="radio1">
+            <legend id="recommend">
+              Would you recommend free code camp to your friend?
+            </legend>
+            <input type="radio" name="radio" value="Definitely " />Definitely
+            <br />
+            <input type="radio" name="radio" value="Maybe" />May be<br />
+            <input type="radio" name="radio" value="Not sure" />Not sure<br />
+          </fieldset>
+          <br /><br />
+
+          <div>
+            <fieldset id="check1">
+              <legend id="improve">What Would you like to see improved?</legend>
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Front-end-Projects"
+              />Front-end-Projects <br />
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Back-end-projects"
+              />Back-end-projects <br />
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Data Visualization"
+              />Data Visualization <br />
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Challenges"
+              />Challenges <br />
+              <input
+                type="checkbox"
+                name="checkbox"
+                value="Open Source Community"
+              />Open Source Community
+              <br />
+              <input type="checkbox" name="checkbox" value="Video" />Video<br />
+              <input type="checkbox" name="checkbox" value="Forum" />Forum
+              <br />
+            </fieldset>
+          </div>
+          <br /><br />
+
+          <div>
+            <label id="comment1"> Any Comment or Suggestion:</label>
+            <textarea
+              id="comment2"
+              placeholder="Enter your Comment Here..."
+            ></textarea>
+            <br /><br />
+
+            <input type="submit" id="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
